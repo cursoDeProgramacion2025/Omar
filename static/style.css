@@ -1,0 +1,169 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 1rem 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+    font-size: 1.8rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+nav a:hover {
+    background: #34495e;
+}
+
+/* Main content */
+main {
+    padding: 2rem 0;
+    min-height: 70vh;
+}
+
+/* Hero section */
+.hero {
+    text-align: center;
+    padding: 3rem 0;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.cta-button {
+    background: #e74c3c;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.cta-button:hover {
+    background: #c0392b;
+}
+
+/* Noticias y secciones */
+.noticias, .sobre-nosotros, .contacto {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+}
+
+.noticia, .profesor {
+    background: #f8f9fa;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-left: 4px solid #3498db;
+    border-radius: 4px;
+}
+
+.noticia h4, .profesor h4 {
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+}
+
+/* Listas */
+.valores ul {
+    list-style-position: inside;
+    margin: 1rem 0;
+}
+
+.valores li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+/* Formulario */
+.formulario-contacto {
+    background: #f8f9fa;
+    padding: 2rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+}
+
+.campo {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+button[type="submit"] {
+    background: #27ae60;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background: #219a52;
+}
+
+/* Footer */
+footer {
+    background: #34495e;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}

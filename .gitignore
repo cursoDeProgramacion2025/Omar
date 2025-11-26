@@ -1,0 +1,18 @@
+# Entorno de desarrollo
+venv/
+.venv/
+
+# Caché de Python
+__pycache__/
+*.pyc
+
+# Archivos de compilación
+*.o
+*.so
+
+# Archivos de sistema
+.DS_Store
+
+# Archivos de configuración y variables de entorno
+.env
+config.ini

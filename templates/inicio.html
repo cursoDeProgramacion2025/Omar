@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="hero">
+    <h2>Bienvenido a Nuestro Colegio</h2>
+    <p>Formando el futuro, hoy.</p>
+    <a href="{{ url_for('contacto') }}" class="cta-button">Contáctanos</a>
+</section>
+
+<section class="noticias">
+    <h3>Últimas Noticias</h3>
+    <div class="noticia">
+        <h4>Inscripciones Abiertas 2025</h4>
+        <p>Ya puedes reservar tu vacante para el próximo ciclo lectivo. ¡No te quedes afuera!</p>
+    </div>
+    <div class="noticia">
+        <h4>Feria de Ciencias</h4>
+        <p>Nuestros alumnos presentarán sus proyectos este viernes en el salón de actos.</p>
+    </div>
+</section>
+{% endblock %}
